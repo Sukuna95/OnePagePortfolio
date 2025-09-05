@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <!-- ===== HEADER ===== -->
+    <header class="header">
+        <h1 class="logo">MyPortfolio</h1>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- ===== HERO ===== -->
+    <section class="hero">
+        <h1>Hi, I'm <span>Your Name</span> 👋</h1>
+        <p>I’m a passionate <strong>Web Developer</strong> building aesthetic, responsive websites & apps.</p>
+        <a href="#projects" class="btn">View My Work</a>
+    </section>
+
+    <!-- ===== ABOUT ===== -->
+    <section id="about" class="card">
+        <h2>About Me</h2>
+        <p>I'm a full-stack developer who loves crafting sleek, user-friendly, and high-performance websites. I
+            specialize in modern technologies like <strong>React</strong>, <strong>Next.js</strong>, and
+            <strong>Node.js</strong>.</p>
+    </section>
+
+    <!-- ===== SKILLS ===== -->
+    <section id="skills" class="card">
+        <h2>Skills</h2>
+        <div class="tags">
+            <span class="tag">HTML</span>
+            <span class="tag">CSS</span>
+            <span class="tag">JavaScript</span>
+            <span class="tag">React</span>
+            <span class="tag">Next.js</span>
+            <span class="tag">Node.js</span>
+        </div>
+    </section>
+
+    <!-- ===== PROJECTS ===== -->
+    <section id="projects" class="card">
+        <h2>Projects</h2>
+        <div class="projects-grid">
+            <!-- Project 1 -->
+            <article class="project">
+                <img src="assets/design-systems.webp" alt="Design System UI" />
+                <h3>Design System UI</h3>
+                <p>React-based reusable component library with Storybook integration.</p>
+                <a href="#" class="btn">View Project</a>
+            </article>
+
+            <!-- Project 2 -->
+            <article class="project">
+                <img src="assets/digital-marketing.jpg" alt="Marketing Site" />
+                <h3>Marketing Site</h3>
+                <p>High-performance Gatsby website with CMS and SEO optimization.</p>
+                <a href="#" class="btn">View Project</a>
+            </article>
+
+            <!-- Project 3 -->
+            <article class="project">
+                <img src="assets/data-viz.jpg" alt="Data Viz Dashboard" />
+                <h3>Data Viz Dashboard</h3>
+                <p>D3-powered interactive dashboard for analytics and reporting.</p>
+                <a href="#" class="btn">View Project</a>
+            </article>
+
+            <!-- Project 4 -->
+            <article class="project">
+                <img src="assets/mobile-landing.jpg" alt="Mobile App Landing" />
+                <h3>Mobile App Landing</h3>
+                <p>Responsive Next.js landing page with smooth animations.</p>
+                <a href="#" class="btn">View Project</a>
+            </article>
+        </div>
+    </section>
+
+    <!-- ===== CONTACT ===== -->
+    <section id="contact" class="card">
+        <h2>Contact</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required />
+            <input type="email" placeholder="Your Email" required />
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer>
+        <p>© 2025 Your Name. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
